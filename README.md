@@ -93,7 +93,7 @@ Este repositorio funciona como una base de código estructurada en cuatro etapas
 
 ---
 
-.
+📂 Repository Structure / Estructura del Repositorio.
 ├── 01-basics/
 │   ├── 00_hello.py
 │   ├── 01_variables.py
