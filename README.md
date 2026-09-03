@@ -94,7 +94,7 @@ Este repositorio funciona como una base de código estructurada en cuatro etapas
 ---
 
 📂 Repository Structure / Estructura del Repositorio.
-```text
+<pre>
 .
 ├── 01-basics/
 │   ├── 00_hello.py
@@ -121,5 +121,4 @@ Este repositorio funciona como una base de código estructurada en cuatro etapas
 │   ├── llm_integrations/
 │   └── .gitkeep
 └── README.md
-
-```
+</pre>
