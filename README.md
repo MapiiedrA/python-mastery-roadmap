@@ -1,17 +1,26 @@
-# 🐍 Python Core Roadmap & Code Lab
+# 🐍 Python Engineering Roadmap | Backend & AI Lab
 
-Welcome to my centralized Python development repository! This repository documents my step-by-step progress through fundamental computer science concepts, object-oriented programming, data structures, algorithms, and core standard libraries.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Django-Backend_Focus-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+  <img src="https://img.shields.io/badge/Database-SQL_%26_PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/AI-LLM_%26_Integrations-8A2BE2?style=for-the-badge&logo=openai&logoColor=white" alt="AI Focus">
+</p>
 
-The code challenges and module titles are documented in **English** to maintain professional standard practices, while the underlying core explanations and study notes cater to my current learning process.
+Welcome to my software engineering repository! This project documents my journey through fundamental programming, backend web development with Django, database architecture using SQL, advanced Python paradigms, and Artificial Intelligence integrations.
 
-*Bienvenido a mi repositorio centralizado de desarrollo en Python. Este espacio documenta mi progreso paso a paso a través de conceptos fundamentales de ciencia de la computación, programación orientada a objetos, estructuras de datos, algoritmos y librerías estándar.*
+The overall architecture, README headers, and roadmap indexes are documented in **English** for international portfolio standards, while code explanations and study notes are maintained in **Spanish** for academic review.
+
+*¡Bienvenido a mi repositorio de ingeniería de software! Este espacio documenta mi recorrido desde los fundamentos de programación hasta el desarrollo backend robusto con Django, arquitectura de bases de datos con SQL, patrones avanzados de Python e integración de Inteligencia Artificial.*
 
 ---
 
 ## 📋 Table of Contents / Tabla de Contenidos
+
 - [About the Project / Sobre el Proyecto](#-about-the-project--sobre-el-proyecto)
 - [Tech Stack & Tools / Tecnologías y Herramientas](#-tech-stack--tools--tecnologías-y-herramientas)
-- [Learning Roadmap & Modules / Ruta de Aprendizaje](#-learning-roadmap--modules--ruta-de-aprendizaje)
+- [Git Commit History / Historial de Commits](#-git-commit-history-highlights--historial-de-commits)
+- [Modules & Roadmap Index / Índice de Módulos](#-modules--roadmap-index--índice-de-módulos)
 - [Repository Structure / Estructura del Repositorio](#-repository-structure--estructura-del-repositorio)
 
 ---
@@ -19,75 +28,94 @@ The code challenges and module titles are documented in **English** to maintain 
 ## 📌 About the Project / Sobre el Proyecto
 
 ### English
-This repository serves as a structured, modular portfolio demonstrating clean code practices, logic solving, unit testing, and asynchronous programming in Python 3.x. Each directory contains focused scripts, unit tests, and practical challenge solutions designed to build a strong foundation for software engineering.
+This repository serves as a production-focused codebase structured across four distinct progression stages: fundamental core logic, intermediate practices, advanced backend engineering with Django & SQL, and AI application integration. The repository highlights scalable REST APIs, relational database design, asynchronous execution, and modern AI pipelines.
 
 ### Español
-Este repositorio funciona como un portafolio modular y estructurado que demuestra buenas prácticas de código limpio, resolución de lógica, pruebas unitarias y programación asíncrona en Python 3.x. Cada carpeta contiene scripts enfocados, pruebas unitarias y soluciones a retos prácticos diseñados para construir una base sólida en ingeniería de software.
+Este repositorio funciona como una base de código estructurada en cuatro etapas de desarrollo: lógica fundamental, prácticas intermedias, ingeniería backend avanzada con Django y SQL, e integración de aplicaciones con IA. El proyecto destaca el desarrollo de APIs REST escalables, diseño de bases de datos relacionales, ejecución asíncrona y canalizaciones con modelos de IA.
 
 ---
 
 ## 🛠️ Tech Stack & Tools / Tecnologías y Herramientas
 
-| Category / Categoría | Technologies / Tecnologías |
+| Category / Categoría | Specification / Especificación |
 | :--- | :--- |
-| **Language / Lenguaje** | Python 3.x |
-| **IDE / Editor** | Visual Studio Code |
-| **Version Control / Control de Versiones** | Git & GitHub |
-| **Standard Libraries / Librerías Estándar** | `unittest`, `datetime`, `json`, `xml`, `asyncio`, `re` |
+| **Core Language** | Python 3.x 🐍 |
+| **Backend Framework** | Django & Django REST Framework (DRF) ⚙️ |
+| **Databases & ORM** | SQL, PostgreSQL, Django ORM 🗄️ |
+| **AI & LLM Tools** | LangChain, OpenAI API, Anthropic Claude API, Vector DBs 🤖 |
+| **IDE / Environment** | Visual Studio Code 💻 |
+| **Version Control** | Git & GitHub 🚀 |
+
+---
+| File Name | Topic (English) | Tema (Español) | Status |
+| :--- | :--- | :--- | :---: |
+| `00_hello.py` | Syntax & Output | Sintaxis e Impresión | Done ✅ |
+| `01_variables.py` | Variables & Data Types | Variables y Tipos de Datos | Done ✅ |
+| `02_operators.py` | Operators | Operadores | Done ✅ |
+| `03_strings.py` | Strings & Formatting | Cadenas de Texto | Done ✅ |
+| `04_lists.py` | Lists | Listas | Done ✅ |
+| `05_tuplas.py` | Tuples | Tuplas | Done ✅ |
+| `06_sets.py` | Sets | Conjuntos | Done ✅ |
+| `07_dicts.py` | Dictionaries | Diccionarios | Done ✅ |
+| `08_condicionales.py` | Conditionals | Condicionales | Done ✅ |
+| `09_loops.py` | Loops & Iteration | Bucles e Iteración | Done ✅ |
+| `10_functions.py` | Functions & Scope | Funciones y Alcance | Done ✅ |
+| `11_classes.py` | Classes & OOP | Clases y POO | Done ✅ |
+| `12_exceptions.py` | Exception Handling | Manejo de Excepciones | Done ✅ |
+| `13_modules.py` | Modules & Imports | Módulos e Importaciones | Done ✅ |
 
 ---
 
-## 🗺️ Learning Roadmap & Modules / Ruta de Aprendizaje
+### 📂 02-intermediate (Active ⏳)
 
-The following index tracks progress through the 16 primary roadmap modules (#00 through #15):
+| Topic | Description | Status |
+| :--- | :--- | :---: |
+| **File Handling** | Working with TXT, CSV, JSON, and XML files | In Progress ⏳ |
+| **Unit Testing** | Automated testing using `unittest` framework | Planned 🎯 |
+| **Advanced Generators** | Iterators, decorators, and context managers | Planned 🎯 |
 
-| Module # | Topic (English) | Tema (Español) | Key Concepts / Files |
-| :---: | :--- | :--- | :--- |
-| **#00** | Syntax & Data Types | Sintaxis y Tipos de Datos | Variables, Primitivos, Impresión en consola |
-| **#01** | Operators & Control Structures | Operadores y Estructuras de Control | Lógicos, Aritméticos, Condicionales, Bucles |
-| **#02** | Functions & Scope | Funciones y Alcance | Parámetros, Retornos, Scope local/global |
-| **#03** | Contact Agenda | Agenda de Contactos | `my_agenda_2.py`, CRUD básico en consola |
-| **#04** | Word Analyzer & Strings | Analizador de Palabras y Cadenas | Palíndromos, Anagramas, Isogramas |
-| **#05** | Value & Reference Variables | Variables por Valor y Referencia | Asignación en memoria, Mutabilidad |
-| **#06** | Recursion | Recursividad | Casos base, Factorial, Secuencia Fibonacci |
-| **#07** | Stacks & Queues | Pilas y Colas | `printer_2.py`, LIFO, FIFO, Impresora compartida |
-| **#08** | Classes & OOP | Clases y POO | Atributos, Métodos, Encapsulamiento |
-| **#09** | Inheritance & Polymorphism | Herencia y Polimorfismo | Jerarquía de clases, Sobrescritura de métodos |
-| **#10** | Exception Handling | Manejo de Excepciones | `try / except / finally`, Excepciones personalizadas |
-| **#11** | File Handling | Manejo de Ficheros | `#11 MANEJO DE FICHEROS.py`, Lectura/Escritura TXT |
-| **#12** | JSON & XML Handling | Manejo de JSON y XML | `#12 JSON Y XML.py`, Serialización de datos |
-| **#13** | Unit Testing | Pruebas Unitarias | `#13 PRUEBAS UNITARIAS.py`, Framework `unittest` |
-| **#14** | Dates & Time Handling | Manejo de Fechas y Tiempo | `#14 FECHAS.py`, Módulo `datetime` |
-| **#15** | Asynchronous Programming | Programación Asíncrona | `#15 ASINCRONÍA.py`, Módulo `asyncio`, `async/await` |
+### 📂 03-advanced-backend (Upcoming 🚀)
+
+| Topic | Description | Status |
+| :--- | :--- | :---: |
+| **SQL & Database Design** | Relational schemas, queries, indexes, and PostgreSQL integration | Planned 🎯 |
+| **Django Framework** | MVT pattern, Django ORM, migrations, and user authentication | Planned 🎯 |
+| **Django REST Framework** | Building scalable RESTful APIs, serializers, and JWT authentication | Planned 🎯 |
+| **Asynchronous Python** | Concurrency, Celery task queues, and `asyncio` execution | Planned 🎯 |
+
+### 📂 04-artificial-intelligence (Upcoming 🚀)
+
+| Topic | Description | Status |
+| :--- | :--- | :---: |
+| **LLM API Integrations** | Connecting OpenAI API, Claude API, and custom prompt workflows | Planned 🎯 |
+| **LangChain & RAG** | Building Retrieval-Augmented Generation systems with vector stores | Planned 🎯 |
+| **AI Backend Services** | Serving AI models via Django REST endpoints and async workers | Planned 🎯 |
 
 ---
 
-## 📂 Repository Structure / Estructura del Repositorio
-
-```text
 .
-├── #00-SYNTAX-AND-DATA-TYPES/
-├── #01-OPERATORS-AND-CONTROL-STRUCTURES/
-├── #02-FUNCTIONS-AND-SCOPE/
-├── #03-CONTACT-AGENDA/
-│   └── my_agenda_2.py
-├── #04-WORD-ANALYZER/
-│   └── word_analyzer.py
-├── #05-VALUE-AND-REFERENCE/
-├── #06-RECURSION/
-├── #07-STACKS-AND-QUEUES/
-│   └── printer_2.py
-├── #08-CLASSES-AND-OOP/
-├── #09-INHERITANCE-AND-POLYMORPHISM/
-├── #10-EXCEPTION-HANDLING/
-├── #11-FILE-HANDLING/
-│   └── file_handling.py
-├── #12-JSON-AND-XML/
-│   └── json_xml_handling.py
-├── #13-UNIT-TESTING/
-│   └── test_suite.py
-├── #14-DATES-AND-TIME/
-│   └── dates_handling.py
-├── #15-ASYNC-PROGRAMMING/
-│   └── async_tasks.py
+├── 01-basics/
+│   ├── 00_hello.py
+│   ├── 01_variables.py
+│   ├── 02_operators.py
+│   ├── 03_strings.py
+│   ├── 04_lists.py
+│   ├── 05_tuplas.py
+│   ├── 06_sets.py
+│   ├── 07_dicts.py
+│   ├── 08_condicionales.py
+│   ├── 09_loops.py
+│   ├── 10_functions.py
+│   ├── 11_classes.py
+│   ├── 12_exceptions.py
+│   └── 13_modules.py
+├── 02-intermediate/
+│   └── .gitkeep
+├── 03-advanced-backend/
+│   ├── sql_queries/
+│   ├── django_project/
+│   └── .gitkeep
+├── 04-artificial-intelligence/
+│   ├── llm_integrations/
+│   └── .gitkeep
 └── README.md
