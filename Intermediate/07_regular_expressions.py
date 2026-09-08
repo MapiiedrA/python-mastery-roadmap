@@ -83,3 +83,5 @@ print(re.findall(pattern, email))
 
 email = "mapiedra3223@gmail"   #tambien se podria agregar un filtro de dominios al email
 print(re.findall(pattern, email))
+
+# mejor pagina para revisar RegEx https://regex101.com/
