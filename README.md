@@ -47,6 +47,8 @@ Este repositorio funciona como una base de código estructurada en cuatro etapas
 | **Version Control** | Git & GitHub 🚀 |
 
 ---
+### 📂 01-basics (Completed ✅)
+
 | File Name | Topic (English) | Tema (Español) | Status |
 | :--- | :--- | :--- | :---: |
 | `00_hello.py` | Syntax & Output | Sintaxis e Impresión | Done ✅ |
@@ -68,11 +70,17 @@ Este repositorio funciona como una base de código estructurada en cuatro etapas
 
 ### 📂 02-intermediate (Active ⏳)
 
-| Topic | Description | Status |
-| :--- | :--- | :---: |
-| **File Handling** | Working with TXT, CSV, JSON, and XML files | In Progress ⏳ |
-| **Unit Testing** | Automated testing using `unittest` framework | Planned 🎯 |
-| **Advanced Generators** | Iterators, decorators, and context managers | Planned 🎯 |
+| File Name | Topic (English) | Tema (Español) | Status |
+| :--- | :--- | :--- | :---: |
+| `00_dates.py` | Dates & Time Management | Manejo de Fechas y Tiempo | Done ✅ |
+| `01_list_comprehension.py` | List Comprehension | Comprensión de Listas | Done ✅ |
+| `02_challenges.py` | Coding Challenges | Retos de Programación | Done ✅ |
+| `03_lambdas.py` | Lambda Functions | Funciones Anónimas (Lambdas) | Done ✅ |
+| `04_higher_order_functions.py` | Higher Order Functions | Funciones de Orden Superior | Done ✅ |
+| `05_error_types.py` | Python Error Types | Tipos de Errores en Python | Done ✅ |
+| `06_file_handling.py` | File Handling (TXT, JSON, CSV) | Manejo de Archivos (TXT, JSON, CSV) | Done ✅ |
+| `07_regular_expressions.py` | Regular Expressions (RegEx) | Expresiones Regulares (RegEx) | Done ✅ |
+| `08_python_package_manager.py` | Package Management (PIP) | Gestión de Paquetes (PIP) | Done ✅ |
 
 ### 📂 03-advanced-backend (Upcoming 🚀)
 
