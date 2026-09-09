@@ -120,7 +120,15 @@ Este repositorio funciona como una base de código estructurada en cuatro etapas
 │   ├── 12_exceptions.py
 │   └── 13_modules.py
 ├── 02-intermediate/
-│   └── .gitkeep
+│   ├── 00_dates.py
+│   ├── 01_list_comprehension.py
+│   ├── 02_challenges.py
+│   ├── 03_lambdas.py
+│   ├── 04_higher_order_functions.py
+│   ├── 05_error_types.py
+│   ├── 06_file_handling.py
+│   ├── 07_regular_expressions.py
+│   └── 08_python_package_manager.py
 ├── 03-advanced-backend/
 │   ├── sql_queries/
 │   ├── django_project/
